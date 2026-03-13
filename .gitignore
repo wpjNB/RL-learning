@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+*.pyd
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 实验输出
+experiments/results/*.npy
+experiments/results/*.pt
+experiments/results/*.png
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store

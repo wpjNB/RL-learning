@@ -1,0 +1,13 @@
+# SAC 超参数配置 - HalfCheetah-v4
+env: HalfCheetah-v4
+algorithm: SAC
+episodes: 1000
+lr: 0.0003
+gamma: 0.99
+tau: 0.005
+alpha: 0.2
+auto_alpha: true
+buffer_size: 1000000
+batch_size: 256
+warmup_steps: 10000
+hidden_size: 256
